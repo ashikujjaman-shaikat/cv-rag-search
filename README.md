@@ -24,7 +24,7 @@ Start the Ollama application, or run `ollama serve` in a separate terminal if it
 
 1. Open [cv_qa_ollama.ipynb](cv_qa_ollama.ipynb) and select the `.venv` kernel.
 2. Set `CV_FOLDER` in the settings cell to your PDF folder. The original default is `data/cvs`, relative to the notebook working directory; these CVs are not included in the repository.
-3. Restart the kernel and run the cells from top to bottom. The first cell installs the five pipeline libraries; skip it if you already installed [requirements.txt](requirements.txt), which also includes the notebook kernel.
+3. Restart the kernel and run the cells from top to bottom. The first cell installs everything in [requirements.txt](requirements.txt); skip it if you already installed the requirements.
 4. Change the question in the final cell, for example:
 
 ```python
